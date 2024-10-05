@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../Desktop/Harmonic"
+		},
+		{
+			"path": "../css"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../images"
+		},
+		{
+			"path": "../js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Harmonic"
+	}
+}
