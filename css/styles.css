@@ -426,14 +426,15 @@ there.
 @media (min-width: 1200px) {}
 
 .zoom {
-  transition: transform .2s;
+  transition: transform 0.2s;
   margin: 0 auto;
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); /* Adjusted to a smaller zoom level */
 }
+
 
 
