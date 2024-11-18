@@ -436,5 +436,8 @@ there.
   transform: scale(1.2); /* Adjusted to a smaller zoom level */
 }
 
+.background-image{
+  margin: 0%;
+  padding:0%;
 
-
+}

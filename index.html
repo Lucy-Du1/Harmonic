@@ -2,62 +2,77 @@
 <html lang="en">
 <head>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Basic Page Needs -->
   <meta charset="utf-8">
   <title>Starbrick exhibition</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Mobile Specific Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
+  
 
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/favicon.ico">
 
 </head>
 
 <body>
- <div><h1 class="title-block" style="font-size:15pt; font-weight:300; text-align: center;">Find Your Scent</h1></div>
+  <div>
+    <h1 class="title-block" style="font-size: 20px;
+    font-weight: 300;
+    text-align:center;
+    position: fixed; /* Keeps the title in place */
+    top: -15px; /* Position it at the top of the page */
+    left: 0;
+    width: 100%; /* Make it span the width of the page */
+    height: 5%;
+    background-color: rgba(255, 255, 255, 0.9); /* Optional: Add a slight background color for better visibility */
+    z-index: 1000; /* Ensures it stays above other content */
+    padding-top: 40px; /* Adds some padding for aesthetics */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); ">Find Your Scent</h1>
+  </div>
   <main>
-    <section class="primary-block" style="text-align:center; background-color: rgba(255, 255, 255, 0.8);">
-  
-
-          <section class="primary-block">
-            <figure  style="background-image: url('../images/quality_restoration_20241013150923457.JPG'); background-size: cover; background-position: center;" class="candle-image">
-              <a href="entries/tester1.html">
-                <img class="zoom" src="images/diptyque-baies-berries-candle-190g-b1-1-removebg-preview.png" 
-                style="max-width:300px; height:auto;" />
-              </a>
-            </figure>
-          </section>
+    <section class="primary-block" style="text-align:center; background-color: rgba(255, 255, 255, 0); margin:0%; padding:0%; border:0cap;">
       
-          <figure class="fragrance-image" style="text-align:center; background-image: url('../images/quality_restoration_20241013150923457.JPG'); background-size: cover; background-position: center;">
-            <a href="entries/ptester1.html">
-            <img class="zoom" src="images/WechatIMG675.jpg" 
-            style="max-width:250px; height:auto;" />
+        <figure style="background-image: url('../images/quality_restoration_20241013150923457.JPG'); 
+                       background-size: cover; 
+                       background-position: center; 
+                       background-attachment: fixed;" 
+                class="candle-image">
+          <a href="entries/tester1.html">
+            <img class="zoom" src="images/diptyque-baies-berries-candle-190g-b1-1-removebg-preview.png" 
+                 style="max-width:30%; height:auto;" />
           </a>
-          </figure>
-          
+        </figure>
+      </section>
       
-          <figure class="spray-image" style="text-align:center; background-image: url('../images/quality_restoration_20241013150923457.JPG'); background-size: cover; background-position: center;">
-            <a href="entries/stester1.html">
-            <img class="zoom" src="images/WechatIMG676.jpg" 
-            style="max-width:200px; height:auto;" />
-          </a>
-          </figure>          
-        </main>
-      </body>
+      <figure style="text-align:center; 
+                     background-image: url('../images/quality_restoration_20241013150923457.JPG'); 
+                     background-size: cover; 
+                     background-position: center; 
+                     background-attachment: fixed;">
+        <a href="entries/ptester1.html">
+          <img class="zoom" src="images/xs.png" 
+               style="max-width:30%; height:auto;" />
+        </a>
+      </figure>
       
+      <figure style="text-align:center; 
+                    background-image: url('../images/quality_restoration_20241013150923457.JPG'); 
+                    background-size: cover; 
+                    background-position: center; 
+                    background-attachment: fixed;">
+        <a href="entries/stester1.html">
+          <img class="zoom" src="images/pw.png" 
+               style="max-width:40%; height:auto;" />
+        </a>
+      </figure>
+    </section>
   </main>
 </body>
 </html>
-
